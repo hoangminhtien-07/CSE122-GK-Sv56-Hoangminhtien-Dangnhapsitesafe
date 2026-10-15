@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký SiteSafe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <aside class="intro">
+      <div class="brand">🛡 SiteSafe</div>
+      <h1>Gia nhập đúng đội.<br>Nhận đúng quyền.</h1>
+      <p>Dùng mã mời từ quản trị công trường để đăng ký. Hồ sơ được kiểm tra trước khi cấp quyền làm việc.</p>
+      <p>1. Nhập thông tin cá nhân<br>2. Xác nhận công trường qua mã mời<br>3. Chờ quản trị viên phê duyệt</p>
+      <p>Không có lựa chọn tự gán vai trò quản trị. Liên hệ người mời nếu thông tin quyền chưa đúng.</p>
+    </aside>
+
+    <section class="form-area">
+      <h2>Đăng ký SiteSafe</h2>
+      <form id="signup">
+        <h3>Thông tin cá nhân</h3>
+
+        <div class="field">
+          <label for="name">Họ và tên *</label>
+          <input id="name" required value="Nguyễn Minh">
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" type="email" required value="minh.nguyen@example.com">
+          </div>
+          <div class="field">
+            <label for="phone">Số điện thoại *</label>
+            <input id="phone" type="tel" required value="090 123 4567">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="password">Mật khẩu *</label>
+          <input id="password" type="password" minlength="12" required>
+          <small class="hint">Ít nhất 12 ký tự, gồm chữ và số.</small>
+        </div>
+
+        <div class="field">
+          <label for="confirm">Nhập lại mật khẩu *</label>
+          <input id="confirm" type="password" required>
+          <small class="error" id="error"></small>
+        </div>
+
+        <div class="field">
+          <label for="invite">Mã mời công trường *</label>
+          <input id="invite" required value="RS-A-2026-MINH">
+        </div>
+
+        <div class="role">
+          Quyền dự kiến từ lời mời<br>
+          Riverside – Khối A · Nhân sự hiện trường. Quyền chính thức do quản trị viên xác nhận.
+        </div>
+
+        <label class="consent">
+          <input id="agree" type="checkbox" required checked>
+          Tôi đồng ý Điều khoản sử dụng và Chính sách quyền riêng tư.
+        </label>
+
+        <div class="actions">
+          <button class="primary" type="submit">Gửi đăng ký</button>
+          <button class="secondary" type="button" id="login">Đã có tài khoản? Đăng nhập</button>
+        </div>
+      </form>
+
+      <div class="status" id="status">
+        Mẫu thành công: đang chờ phê duyệt<br>
+        Đã nhận hồ sơ. Kiểm tra email để xác minh; bạn chưa có quyền truy cập dữ liệu công trường.
+      </div>
+      <p class="footer">register.html · Lời mời không làm mất thông tin đã nhập.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
