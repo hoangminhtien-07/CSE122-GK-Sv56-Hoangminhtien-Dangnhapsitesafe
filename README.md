@@ -38,4 +38,4 @@ https://youtu.be/YBDlajHoc0w
 ## 8. Link GitHub
 
 **Repository GitHub:**  
-https://github.com/bruhmoment5285/CSE122-GK-SV62-LeThanhTung-BaoCaoAnToan
+https://github.com/hoangminhtien-07/CSE122-GK-Sv56-Hoangminhtien-Dangnhapsitesafe
