@@ -31,6 +31,7 @@ Trang hiện là bản giao diện mẫu; thông tin đăng ký chưa được g
 Thiết kế Figma của dự án SiteSafe:
 
 https://www.figma.com/design/FU0CPChHb0LapRRTIAsuIS/BTL-16-%E2%80%93-SiteSafe-%E2%80%93-Theo-d%C3%B5i-an-to%C3%A0n-c%C3%B4ng-tr%C6%B0%E1%BB%9Dng
+https://www.figma.com/design/XKdxCxza02E7Y61THmbzMH/%25C4%2590%25C4%2583ng-k%25C3%25BD-t%25C3%25A0i-kho%25E1%25BA%25A3n?node-id=1-2&t=Da0sIEOfyfNKbGYw-0
 
 ## 7. Link video trình bày
 https://youtu.be/YBDlajHoc0w
